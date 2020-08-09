@@ -6,6 +6,6 @@ Where I first heard about it: <https://css-tricks.com/aos-css-driven-scroll-anim
 
 The library itself: <https://github.com/michalsnik/aos>
 
-My fork of the **anchoring triggers** example: <https://codepen.io/hchiam/pen/MWywwdm>
+My fork of the **_anchoring triggers_** example: <https://codepen.io/hchiam/pen/MWywwdm>
 
-My fork of the example of **custom animation triggered by scroll position**: <https://codepen.io/hchiam/pen/MWywwdo>
+My fork of the example of **_custom animation triggered by scroll position_**: <https://codepen.io/hchiam/pen/MWywwdo>
