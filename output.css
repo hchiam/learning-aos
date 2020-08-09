@@ -1,0 +1,50 @@
+body {
+  font-family: avenir, arial, sans-serif;
+  background: #333;
+}
+
+.item {
+  width: 100px;
+  margin: 10px auto;
+  padding: 50px;
+  background: #4f4e4e;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+.item span {
+  display: block;
+  font-size: 1rem;
+}
+.item--blue {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  background: navy;
+}
+.item--red {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  margin: 0;
+  right: 0;
+  background: maroon;
+}
+.item[id^=trigger-] {
+  border-bottom: 1rem solid yellow;
+}
+.item[id^=trigger-] span {
+  background: black;
+  color: yellow;
+}
+
+[data-aos=custom-animation] {
+  transform: scale(2);
+}
+[data-aos=custom-animation].aos-animate {
+  transform: scale(1);
+}
+
+/*# sourceMappingURL=output.css.map */

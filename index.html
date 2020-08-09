@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+      class="item item--blue"
+      data-aos="fade"
+      data-aos-anchor="#trigger-1"
+      data-aos-anchor-placement="bottom-top"
+    >
+      LEFT
+      <span
+        >when <strong>BOTTOM</strong> of <strong>Trigger 1</strong> hits
+        <strong>TOP</strong> of window</span
+      >
+    </div>
+
+    <div
+      class="item item--red"
+      data-aos="fade-left"
+      data-aos-anchor="#trigger-2"
+      data-aos-anchor-placement="bottom-center"
+    >
+      RIGHT
+      <span
+        >when <strong>BOTTOM</strong> of <strong>Trigger 2</strong> hits
+        <strong>CENTER</strong> of window</span
+      >
+    </div>
+
+    <div class="item">1<span>Scroll down to see effects</span></div>
+    <div class="item">
+      2
+    </div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item" id="trigger-1">
+      5
+      <span
+        >Trigger 1: Make the bottom of this touch the <strong>TOP</strong> of
+        the window</span
+      >
+    </div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item" id="trigger-2" data-aos="custom-animation">
+      10
+      <span
+        >Trigger 2: Make the bottom of this touch the <strong>CENTER</strong> of
+        the window</span
+      >
+    </div>
+    <div class="item">11</div>
+    <div class="item" data-aos="fade">12</div>
+    <div class="item">13</div>
+    <div class="item" data-aos="fade">14</div>
+    <div class="item">15</div>
+    <div class="item" data-aos="fade">16</div>
+    <div class="item">17</div>
+    <div class="item" data-aos="fade">18</div>
+    <div class="item">19</div>
+    <div class="item" data-aos="fade">20</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

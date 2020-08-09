@@ -1,0 +1,23 @@
+{
+  "name": "learning-aos",
+  "version": "1.0.0",
+  "description": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "main": "index.js",
+  "scripts": {
+    "process": "sass input.scss output.css",
+    "watch": "sass --watch input.scss output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchiam/learning-aos.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hchiam/learning-aos/issues"
+  },
+  "homepage": "https://github.com/hchiam/learning-aos#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
